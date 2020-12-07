@@ -48,9 +48,6 @@ namespace AdventOfCode2020
             Console.WriteLine("------ Day 4 ------");
             Console.WriteLine();
             //Day 4 - Part 1
-            
-            
-            
         }
     }
 }

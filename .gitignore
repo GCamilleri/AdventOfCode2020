@@ -26,8 +26,6 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
-[Oo]bj/
 [Ll]og/
 [Ll]ogs/
 
@@ -205,7 +203,6 @@ ecf/
 rcf/
 
 # Windows Store app package directories and files
-AppPackages/
 BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
@@ -273,7 +270,6 @@ FakesAssemblies/
 
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
-node_modules/
 
 # Visual Studio 6 build log
 *.plg
@@ -300,7 +296,6 @@ paket-files/
 .fake/
 
 # CodeRush personal settings
-.cr/personal
 
 # Python Tools for Visual Studio (PTVS)
 __pycache__/

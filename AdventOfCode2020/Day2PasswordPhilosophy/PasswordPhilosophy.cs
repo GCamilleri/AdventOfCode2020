@@ -2,13 +2,13 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode2020.PasswordPhilosophy
+namespace AdventOfCode2020.Day2PasswordPhilosophy
 {
     public static class PasswordPhilosophy
     {
         public static int CountValidPasswords<T>() where T : IPasswordInfoBase, new()
         {
-            var passwordInfo = File.ReadAllLines("PasswordPhilosophy/passwordData.txt")
+            var passwordInfo = File.ReadAllLines("Day2PasswordPhilosophy/passwordData.txt")
                 .Select(pd => new T().ParseFromData(pd));
 
             return passwordInfo.Count(pi => pi.IsValid());

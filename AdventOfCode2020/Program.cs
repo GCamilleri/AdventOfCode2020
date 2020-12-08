@@ -1,8 +1,9 @@
 ﻿using System;
-using AdventOfCode2020.PasswordPhilosophy;
-using static AdventOfCode2020.ExpenseReport.ExpenseReport;
-using static AdventOfCode2020.PasswordPhilosophy.PasswordPhilosophy;
-using static AdventOfCode2020.TobogganTrajectory.TobogganTrajectory;
+using AdventOfCode2020.Day4PassportProcessing;
+using AdventOfCode2020.Day2PasswordPhilosophy;
+using static AdventOfCode2020.Day1ExpenseReport.ExpenseReport;
+using static AdventOfCode2020.Day2PasswordPhilosophy.PasswordPhilosophy;
+using static AdventOfCode2020.Day3TobogganTrajectory.TobogganTrajectory;
 
 namespace AdventOfCode2020
 {
@@ -48,6 +49,9 @@ namespace AdventOfCode2020
             Console.WriteLine("------ Day 4 ------");
             Console.WriteLine();
             //Day 4 - Part 1
+            Console.WriteLine($"The number of passports with all required fields is {new PassportProcessing().CountPassportsWithAllRequiredFields()}");
+            //Day 4 - Part 2
+            Console.WriteLine($"The number of valid passports is {new PassportProcessing().CountValidPassports()}");
         }
     }
 }

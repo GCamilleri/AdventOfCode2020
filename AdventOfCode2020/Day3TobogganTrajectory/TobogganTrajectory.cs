@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace AdventOfCode2020.TobogganTrajectory
+namespace AdventOfCode2020.Day3TobogganTrajectory
 {
     public class TobogganTrajectory
     {
@@ -21,7 +21,7 @@ namespace AdventOfCode2020.TobogganTrajectory
 
         private static bool[][] ReadMapFromInput()
         {
-            string[] lines = File.ReadAllLines("TobogganTrajectory/map.txt");
+            string[] lines = File.ReadAllLines("Day3TobogganTrajectory/map.txt");
 
             return lines
                 .Select(l => l

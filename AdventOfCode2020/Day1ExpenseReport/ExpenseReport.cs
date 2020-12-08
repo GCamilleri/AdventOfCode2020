@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace AdventOfCode2020.ExpenseReport
+namespace AdventOfCode2020.Day1ExpenseReport
 {
     public static class ExpenseReport
     {
